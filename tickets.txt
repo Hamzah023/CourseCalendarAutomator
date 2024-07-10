@@ -1,0 +1,10 @@
+#1. scrape time, date, and type of commitment (lab, lecture) from webadvisor,
+#2. put the data into a 2d array
+#3. connect to notion api
+#4. make api call to create a new notion page (or you can put the data into a database)
+#5. make notion automatically create a calendar template
+#6. make it match the data from the 2d array (time, date, type of commitment)
+#7. put the data into the notion page (or put the database into the notion page)
+
+1. "CIS*2030" saved in courseName
+2. "Mondays, 7-9pm" saved in courseTimings
