@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-username = ''
+username = 'himran02@uoguelph.ca'
 password = ''
 
 url = 'https://colleague-ss.uoguelph.ca/Student/Planning/DegreePlans/PrintSchedule?termId=F24&hideProxyDialog=false'
@@ -14,12 +14,11 @@ driver = webdriver.Chrome()
 
 driver.get(url)
 
-#this works by waiting for 100 seconds
+time.sleep(30) #this works by waiting for 100 seconds
 
 #wait = WebDriverWait(driver, 600) #this works by waiting for the page to load for 100 seconds, it can be converted to
 
 #popup = wait.until(EC.presence_of_element_located((By.XPATH, '//div[@role="heading" and @aria-level="1"]')))
-
 
 
 usernameField = driver.find_element(By.ID, 'i0116') #this works by finding the username field which is the input field and the ID is i0116
